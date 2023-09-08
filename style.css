@@ -6,7 +6,7 @@
 }  
 
 :root{
-    --cor_menu : purple;
+    --cor_menu : #d8ebb5;
     --altura_cabecalho: 55px;
 }
 
@@ -17,20 +17,31 @@
     background-color: var(--cor_menu);
     align-items: center;
     height: var(--altura_cabecalho);
+    padding: 35px 40px;
+}
+.cabecalho__detalhes__logo{
+    width: 50px;
+
+}
+.cabecalho__detalhes__logo:hover{
+    transform:scale(1.2);
 }
 
 .cabecalho__detalhes__user{
     height: 40px;
     width: 40px;
     border-radius: 50px;
+    object-fit: cover;
 }
-
+.cabecalho__detalhes__user:hover {
+    transform: scale(1.2);
+}
 .corpo{
     height: calc(100vh - var(--altura_cabecalho));
 }
 
-.menu{
+.corpo_menu{
     width: 20%;
     height: 100%;
-    background-color: aqua;
+    background-color: #639a87;
 }
